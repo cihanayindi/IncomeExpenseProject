@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1189</width>
-    <height>876</height>
+    <width>920</width>
+    <height>788</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <rect>
       <x>10</x>
       <y>30</y>
-      <width>931</width>
+      <width>901</width>
       <height>531</height>
      </rect>
     </property>
@@ -31,7 +31,7 @@
       <rect>
        <x>370</x>
        <y>20</y>
-       <width>551</width>
+       <width>521</width>
        <height>491</height>
       </rect>
      </property>
@@ -41,6 +41,12 @@
      <property name="columnCount">
       <number>5</number>
      </property>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderHighlightSections">
+      <bool>true</bool>
+     </attribute>
      <row/>
      <row/>
      <row/>
@@ -451,23 +457,45 @@
      </item>
     </layout>
    </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>720</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Papyrus</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Designed by Simo Hayha</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1189</width>
+     <width>920</width>
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuYard_m">
+   <widget class="QMenu" name="menuYardim">
     <property name="title">
      <string>Yardım</string>
     </property>
     <addaction name="actionHakk_nda"/>
    </widget>
-   <addaction name="menuYard_m"/>
+   <addaction name="menuYardim"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionHakk_nda">
